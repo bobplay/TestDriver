@@ -1,4 +1,4 @@
-package com.peilei.selenium;
+
 import java.io.File;
 
 import org.openqa.selenium.By;
@@ -42,8 +42,8 @@ public class TestBrower {
 	}
 
 	/**
-	 * ´ò¿ªÍøÒ³
-	 * @param webDriver  ¸÷¸öä¯ÀÀÆ÷driver
+	 * ï¿½ï¿½ï¿½ï¿½Ò³
+	 * @param webDriver  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½driver
 	 */
 	public static void openWeb(RemoteWebDriver webDriver){
 		try {
@@ -57,7 +57,7 @@ public class TestBrower {
 //			Object[] windowHandles = webDriver.getWindowHandles().toArray();
 //			webDriver.switchTo().window(windowHandles[windowHandles.length-1].toString());
 			/**
-			 * ¸´Ñ¡¿òºÍÏÂÀ­¿òÓÐÐ§Êý¾ÝµÄËæ»úÏÔÊ¾
+			 * ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
 			 */
 //			webDriver.get("file:///C:/Users/1A-030/Desktop/checkbox.html");
 //		    CheckBox  checkbox = new CheckBox();
@@ -72,15 +72,15 @@ public class TestBrower {
 			webDriver.get("file:///C:/Users/1A-030/Desktop/table.html");
 
 //			OrderList order = PageFactory.initElements(webDriver, OrderList.class);
-			OrderList order = new OrderList("100221",webDriver);
-			System.out.println(order.getPrice());
-//			System.out.println("´ò¿ªÒ³Ãæ: "+webDriver.getWindowHandle().toString());
-//		chromeDriver.findElement(By.id("kw")).sendKeys("×Ô¶¯»¯²âÊÔ");
+//			OrderList order = new OrderList("100221",webDriver);
+//			System.out.println(order.getPrice());
+//			System.out.println("ï¿½ï¿½Ò³ï¿½ï¿½: "+webDriver.getWindowHandle().toString());
+//		chromeDriver.findElement(By.id("kw")).sendKeys("ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 //		chromeDriver.findElement(By.id("su")).click();
 //			webDriver.navigate().to("http://www.youku.com/");
 //			webDriver.executeScript("alert(\"huile\")");
 //			webDriver.getKeyboard().pressKey(Keys.F5);
-//			webDriver.findElementByPartialLinkText("ÐÂÎÅ").click();
+//			webDriver.findElementByPartialLinkText("ï¿½ï¿½ï¿½ï¿½").click();
 //			sleep(2000);
 //			Object[] windowHandles = webDriver.getWindowHandles().toArray();
 //			for (Object object : windowHandles) {
@@ -89,7 +89,7 @@ public class TestBrower {
 //			webDriver.switchTo().window(windowHandles[windowHandles.length-1].toString());
 //			System.out.println("xinyemian: "+webDriver.getWindowHandle().toString());
 //			sleep(time);
-//			webDriver.findElement(By.xpath("//input[@name='word']")).sendKeys("±±¾©");
+//			webDriver.findElement(By.xpath("//input[@name='word']")).sendKeys("ï¿½ï¿½ï¿½ï¿½");
 //			webDriver.findElement(By.className("btn")).click();
 //			sleep(time);
 //			webDriver.navigate().back();
@@ -104,10 +104,6 @@ public class TestBrower {
 		}
 	}
 
-	private static void getOrder(WebElement elementOrder,
-			RemoteWebDriver webDriver) {
-		
-	}
 
 	public static void sleep(long time){
 		try {

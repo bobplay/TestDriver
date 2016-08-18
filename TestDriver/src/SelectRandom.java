@@ -1,4 +1,4 @@
-package com.peilei.selenium;
+
 
 import java.util.List;
 import java.util.Random;
@@ -16,7 +16,7 @@ public class SelectRandom extends Select {
 		Select sel = new Select(element);
 		List<WebElement> options = sel.getOptions();
 		/**
-		 * ÅÐ¶ÏÏÂÀ­¿òÊÇ·ñÓÐÄÚÈÝ£¬Ëæ»úÏÂÀ­¿òÄÚÈÝ
+		 * ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
 		if(options.size()>0 && options != null){
 			Random random = new Random();
@@ -26,7 +26,7 @@ public class SelectRandom extends Select {
 		}
 	}
 	/**
-	 * ½«Ä¬ÈÏµÄÎÞÐ§ÖµÈ¥µô£¬ÀýÈçÇëÑ¡Ôñ
+	 * ï¿½ï¿½Ä¬ï¿½Ïµï¿½ï¿½ï¿½Ð§ÖµÈ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
 	 * @param element
 	 * @param index
 	 */

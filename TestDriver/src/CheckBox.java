@@ -1,4 +1,3 @@
-package com.peilei.selenium;
 
 import java.util.List;
 import java.util.Random;
